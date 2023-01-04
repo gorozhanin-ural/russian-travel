@@ -1,1 +1,15 @@
 @import url('../vendor/fonts.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/link/link.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__languages/header__languages.css');
+@import url('../blocks/header/__language/header__language.css');
+@import url('../blocks/header/__language/_active/header__language_active.css');
+
+@import url('../blocks/content/content.css');
+
+@import url('../blocks/route/route.css');
+@import url('../blocks/route/__heading/route__heading.css');
+@import url('../blocks/route/__subheading/route__subheading.css');
+@import url('../blocks/route/__image/route__image.css');
+@import url('../blocks/route/__image-comment/route__image-comment.css');
