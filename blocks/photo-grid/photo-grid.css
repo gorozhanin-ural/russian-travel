@@ -1,9 +1,9 @@
 .photo-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   list-style-type: none;
   margin: 0;
   padding: 0 48px;
-  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
   gap: 16px;
 }
