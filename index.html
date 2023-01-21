@@ -9,8 +9,8 @@
 </head>
 <body class="page">
   <header class="header">
-    <div class="header__logo">
-      <img src="./images/logo.png" alt="Логотип Россия">
+    <div>
+      <img class="header__logo" src="./images/logo.png" alt="Логотип Россия">
     </div>
     <ul class="header__lang-links">
       <li class="header__lang-link header__lang-link_active"><a class="link" href="#">Ru</a></li>
@@ -84,7 +84,7 @@
         <h2 class="place__title">Куршская коса</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="#" class="place__link">park-kosa.ru</a>
+          <a class="place__link link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
         </div>
         <img src="./images/kosa.jpg" alt="" class="place__image">
         <div class="place__text">
@@ -100,7 +100,7 @@
         <h2 class="place__title">Кольский</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="#" class="place__link">National Geographic</a>
+          <a class="place__link link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
         </div>
         <img src="./images/kolskiy.jpg" alt="" class="place__image">
         <div class="place__text">
@@ -116,7 +116,7 @@
         <h2 class="place__title">Алтай</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="#" class="place__link">YouTube</a>
+          <a class="place__link link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank">YouTube</a>
         </div>
         <img src="./images/altai.jpg" alt="" class="place__image">
         <div class="place__text">
@@ -132,7 +132,7 @@
         <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="#" class="place__link">https://vk.com/baikalmile</a>
+          <a class="place__link link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
         </div>
         <img src="./images/baykal.jpg" alt="" class="place__image">
         <div class="place__text">
@@ -148,7 +148,7 @@
         <h2 class="place__title">Карелия</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="#" class="place__link">http://vodlozero.ru/</a>
+          <a class="place__link link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
         </div>
         <img src="./images/kareliya.jpg" alt="" class="place__image">
         <div class="place__text">
@@ -160,12 +160,14 @@
     </ul>
 
     <section class="cover">
-      <div class="cover__background">
-        <div class="cover__overlay">
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
-          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+      <a class="link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+        <div class="cover__background">
+          <div class="cover__overlay">
+            <h2 class="cover__title">До Байкала «на собаках»</h2>
+            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+          </div>
         </div>
-      </div>
+      </a>
     </section>
 
   </main>
@@ -173,19 +175,19 @@
     <nav class="footer__menu">
       <ul class="footer__links">
         <li class="footer__link">
-          <a class="link" href="#">Карты</a>
+          <a class="link" href="https://yandex.ru/maps" target="_blank">Карты</a>
         </li>
         <li class="footer__link">
-          <a class="link" href="#">Погода</a>
+          <a class="link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
         </li>
         <li class="footer__link">
-          <a class="link" href="#">Расписание</a>
+          <a class="link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
         </li>
         <li class="footer__link">
-          <a class="link" href="#">Календарь</a>
+          <a class="link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
         </li>
         <li class="footer__link">
-          <a class="link" href="#">Путешествия</a>
+          <a class="link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
         </li>
       </ul>
     </nav>

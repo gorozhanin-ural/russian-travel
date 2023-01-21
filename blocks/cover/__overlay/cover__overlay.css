@@ -8,3 +8,7 @@
   row-gap: 32px;
   justify-content: center;
 }
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, .8);
+}
