@@ -1,5 +1,15 @@
 .cover__background {
-  width: 1184px;
-  height: 740px;
   background-image: url('../../../images/trains.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(100vw / 1.6);
+}
+
+@media screen and (min-width: 1280px){
+  .cover__background {
+    width: 1184px;
+    height: 740px;
+  }
 }
