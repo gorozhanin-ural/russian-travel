@@ -1,5 +1,24 @@
 .place__text {
   display: flex;
   flex-direction: column;
-  row-gap: 26px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .place__text {
+    padding: 16px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .place__text{
+    row-gap: 25px;
+  }
+  
+}
+
+@media screen and (min-width: 1024px) {
+  .place__text {
+    row-gap: 26px;
+  }
 }

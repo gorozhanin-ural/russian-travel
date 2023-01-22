@@ -1,8 +1,34 @@
 .places {
-  padding: 0 148px;
   display: flex;
   flex-direction: column;
-  row-gap: 80px;
   list-style-type: none;
   margin: 0;
+}
+
+@media screen and (min-width: 320px) {
+  .places {
+    row-gap: 50px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .places {
+    row-gap: 72px;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places {
+    row-gap: 80px;
+    padding: 0 48px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places {
+    row-gap: 80px;
+    padding: 0 148px;
+  }
 }
