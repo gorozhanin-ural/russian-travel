@@ -21,3 +21,6 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 Удачи!
+
+
+[GH Pages](https://strannik67.github.io/russian-travel/)
