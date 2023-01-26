@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 768px) {
   .place__text {
-    padding: 16px;
+    padding: 0 16px;
   }
 }
 
@@ -14,7 +14,12 @@
   .place__text{
     row-gap: 25px;
   }
-  
+}
+
+@media screen and (min-width: 768px) {
+  .place__text {
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 1024px) {

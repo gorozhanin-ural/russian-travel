@@ -13,8 +13,8 @@
 @media screen and (min-width: 768px) {
   .place {
     grid-template-columns: repeat(2, 1fr);
+    row-gap: 48px;
     column-gap: 28px;
-    row-gap: 73px;
   }
 }
 
@@ -22,7 +22,6 @@
   .place {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 32px;
-    row-gap: 80px;
   }
 }
 
@@ -30,6 +29,5 @@
   .place {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 40px;
-    row-gap: 80px;
   }
 }
