@@ -9,4 +9,4 @@
 * БЭМ
 
 ------
-[Ссылка на gh-pages](https://strannik67.github.io/russian-travel/)
+[Demo](https://russian-travel.nothingisreal.ru/)
