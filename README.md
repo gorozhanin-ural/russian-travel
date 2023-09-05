@@ -8,5 +8,5 @@
 * CSS
 * БЭМ
 
-------
+-----
 [Demo](https://russian-travel.nothingisreal.ru/)
